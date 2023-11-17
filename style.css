@@ -9,9 +9,31 @@ body {
     color: #fff;
     padding: 1rem;
     text-align: center;
+}
+
+.banner {
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+
+#logo {
+    width: 200px; /* Adjust the size as needed */
+    height: auto;
+    margin-right: 5px; /* Add some spacing between the logo and text */
+}
+
+.navigation {
+    display: flex;
+    gap: 10px;
+}
+
+.navigation a {
+    text-decoration: none;
+    color: #fff;
+    background-color: #4a90e2;
+    padding: 8px 12px;
+    border-radius: 5px;
 }
 
 section {
@@ -32,10 +54,3 @@ footer {
     padding: 1rem;
     text-align: center;
 }
-
-#logo {
-    width: 200px; /* Adjust the size as needed */
-    height: auto;
-    margin-right: 5px; /* Add some spacing between the logo and text */
-}
-
