@@ -54,3 +54,49 @@ footer {
     padding: 1rem;
     text-align: center;
 }
+header {
+    background-color: #add8e6;
+    color: #fff;
+    padding: 0.5rem; /* Adjust the padding as needed */
+    text-align: center;
+}
+
+.banner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin-right: 10px; /* Adjust the spacing between buttons */
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    padding: 10px;
+    background-color: #4682b4; /* Adjust the button background color */
+    border-radius: 5px; /* Add rounded corners to the buttons */
+}
+
+nav a:hover {
+    background-color: #357ebd; /* Change the background color on hover */
+}
+
+/* Add this to your existing style.css file */
+#logo {
+    width: 400px; /* Adjust the size as needed */
+    height: auto;
+}
+
+.popup {
+    /* Add styling for your popup here */
+    /* This is a placeholder, adjust it based on your needs */
+}

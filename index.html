@@ -10,17 +10,26 @@
 </head>
 
 <body>
-    <header class="main-container">
+    <header>
         <div class="banner">
             <img src="End logo.png" alt="Your Logo" id="logo">
-            <!-- Other header elements if needed -->
-
-            <nav class="navigation">
-                <a href="#">CONNEXION</a>
-                <a href="#">PAQUETS</a>
-                <a href="#">THEORIE</a>
-                <a href="#">CENTRES</a>
-                <a href="#">TESTEZ GRATUITEMENT !</a>
+            <nav>
+                <ul>
+                    <li><a href="#popup">CONNEXION</a></li>
+                    <li><a href="pricing.html">PAQUETS</a></li>
+                    <li><a href="theory.html">THÉORIE</a></li>
+                    <li class="dropdown">
+                        <a href="#" class="dropbtn">CENTRE</a>
+                        <div class="dropdown-content">
+                            <a href="orlando.html">Orlando</a>
+                            <a href="new_jersey.html">New Jersey</a>
+                            <a href="new_york.html">New York</a>
+                            <a href="sydney.html">Sydney</a>
+                            <a href="harbour.html">Harbour</a>
+                        </div>
+                    </li>
+                    <li><a href="products.html">TESTEZ GRATUITEMENT !</a></li>
+                </ul>
             </nav>
         </div>
     </header>
@@ -58,6 +67,13 @@
     <footer>
         <!-- Your footer content goes here -->
     </footer>
+    <script>
+        function openPopup() {
+            // Add your logic to open the popup here
+            alert("Popup functionality will be implemented here.");
+        }
+    </script>
+    
 </body>
 
 </html>
