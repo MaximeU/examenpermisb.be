@@ -15,8 +15,8 @@
             <img src="End logo.png" alt="Your Logo" id="logo">
             <nav>
                 <ul>
-                    <li><a href="#popup">CONNEXION</a></li>
-                    <li><a href="pricing.html">PAQUETS</a></li>
+                    <li><a href="#" onclick="openPopup()">CONNEXION</a></li>
+                    <li><a href="pricing.html" target="_blank">PAQUETS</a></li>
                     <li><a href="theory.html">THÉORIE</a></li>
                     <li class="dropdown">
                         <a href="#" class="dropbtn">CENTRE</a>
@@ -35,45 +35,42 @@
     </header>
 
     <main>
-        <section id="introduction">
-            <h2>Welcome to Your Driving Exam Practice!</h2>
-            <p>
-                Get ready for your Belgian driving license exam by practicing with our exam simulations.
-            </p>
-        </section>
-        <section id="exam-simulation">
-            <h2>Exam Simulations</h2>
-            <p>
-                Practice with our realistic exam simulations to boost your confidence and improve your chances of passing.
-            </p>
-            <!-- Add more details or buttons for users to access simulations -->
-        </section>
-        <section id="pricing">
-            <h2>Choose a Plan</h2>
-            <p>
-                Select the plan that suits your needs and start your preparation today.
-            </p>
-            <!-- Add pricing details or buttons for users to choose a plan -->
-        </section>
-        <section id="contact">
-            <h2>Contact Us</h2>
-            <p>
-                Have questions or need assistance? Feel free to reach out to us.
-            </p>
-            <!-- Add a contact form or contact information -->
-        </section>
+        <!-- Your existing sections -->
     </main>
 
     <footer>
         <!-- Your footer content goes here -->
     </footer>
+
+    <div id="popup" class="popup">
+        <form>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" required>
+
+            <button type="button" onclick="login()">Login</button>
+            <button type="button" onclick="createAccount()">Create Account</button>
+        </form>
+    </div>
+
     <script>
         function openPopup() {
-            // Add your logic to open the popup here
-            alert("Popup functionality will be implemented here.");
+            var popup = document.getElementById("popup");
+            popup.style.display = "block";
+        }
+
+        function login() {
+            // Add your login logic here
+            alert("Login functionality will be implemented here.");
+        }
+
+        function createAccount() {
+            // Add your create account logic here
+            alert("Create Account functionality will be implemented here.");
         }
     </script>
-    
 </body>
 
 </html>
