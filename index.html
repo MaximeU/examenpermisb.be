@@ -6,7 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <title>Examen Permis B</title>
-    <link rel="icon" href="favicon-16x16.ico" type="image/x-icon">
+    <!-- Favicons pour les thèmes clair et sombre -->
+    <link rel="icon" href="favicon.ico.ico" id="favicon-light" type="image/x-icon">
+    <link rel="icon" href="favicon-16x16.ico" id="favicon-dark" type="image/x-icon" media="(prefers-color-scheme: dark)">
 </head>
 
 <body>
@@ -69,6 +71,22 @@
         function createAccount() {
             // Add your create account logic here
             alert("Create Account functionality will be implemented here.");
+        }
+    </script>
+    <script>
+        function openPopup() {
+            var popup = document.getElementById("popup");
+            popup.style.display = "block";
+        }
+    
+        function login() {
+            // Ajoutez votre logique de connexion ici
+            alert("La fonctionnalité de connexion sera implémentée ici.");
+        }
+    
+        function createAccount() {
+            // Ajoutez votre logique de création de compte ici
+            alert("La fonctionnalité de création de compte sera implémentée ici.");
         }
     </script>
 </body>
