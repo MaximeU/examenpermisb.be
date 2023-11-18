@@ -18,7 +18,9 @@ body {
     width: 400px; /* Ajustez la taille au besoin */
     height: auto;
     margin-right: 5px; /* Ajoutez un espacement entre le logo et le texte */
+    cursor: pointer; /* Ajoutez un curseur pour indiquer que c'est cliquable */
 }
+
 
 nav ul {
     list-style-type: none;

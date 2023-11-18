@@ -14,7 +14,9 @@
 <body>
     <header>
         <div class="banner">
-            <img src="End logo.png" alt="Your Logo" id="logo">
+            <a href="homepage.html"> <!-- Remplacez "homepage.html" par le chemin de votre page d'accueil -->
+                <img src="End logo.png" alt="Your Logo" id="logo">
+            </a>
             <nav>
                 <ul>
                     <li><a href="#" onclick="openPopup()">CONNEXION</a></li>
@@ -37,11 +39,11 @@
     </header>
 
     <main>
-        <!-- Your existing sections -->
+        <!-- Vos sections existantes -->
     </main>
 
     <footer>
-        <!-- Your footer content goes here -->
+        <!-- Le contenu de votre pied de page va ici -->
     </footer>
 
     <div id="popup" class="popup">
@@ -64,26 +66,10 @@
         }
 
         function login() {
-            // Add your login logic here
-            alert("Login functionality will be implemented here.");
-        }
-
-        function createAccount() {
-            // Add your create account logic here
-            alert("Create Account functionality will be implemented here.");
-        }
-    </script>
-    <script>
-        function openPopup() {
-            var popup = document.getElementById("popup");
-            popup.style.display = "block";
-        }
-    
-        function login() {
             // Ajoutez votre logique de connexion ici
             alert("La fonctionnalité de connexion sera implémentée ici.");
         }
-    
+
         function createAccount() {
             // Ajoutez votre logique de création de compte ici
             alert("La fonctionnalité de création de compte sera implémentée ici.");
